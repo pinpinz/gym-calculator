@@ -3,6 +3,7 @@ import 'package:bmi_calculator_app/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../Components/Reusable_Bg.dart';
+import 'input_page.dart';
 
 class ResultPage extends StatelessWidget {
   final String resultText;

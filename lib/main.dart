@@ -1,17 +1,20 @@
+import 'package:bmi_calculator_app/Screens/login_page.dart';
 import 'package:flutter/material.dart';
 import 'Screens/input_page.dart';
 
 void main() => runApp(MyApp());
+
+var ip = 'localhost/jerry/';
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xFF0A0E21),
-        scaffoldBackgroundColor: Color(0xFF0A0E21),
+        primaryColor: Color.fromARGB(255, 124, 144, 243),
+        scaffoldBackgroundColor: Color.fromARGB(255, 0, 23, 39),
       ),
-      home: InputPage(),
+      home: LoginPage(),
     );
   }
 }
